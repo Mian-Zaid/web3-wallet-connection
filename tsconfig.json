@@ -6,8 +6,14 @@
       "target": "es5",
       "jsx": "react",
       "strict": true,
-      "esModuleInterop": true
+      "esModuleInterop": true,
+      "skipLibCheck": true
     },
-    "include": ["src/**/*", "src/*.d.ts"]
+    "include": ["src/**/*", "src/*.d.ts"],
+    "exclude": [
+      "node_modules",
+      "./node_modules",
+      "./node_modules/*",
+    ]
   }
   

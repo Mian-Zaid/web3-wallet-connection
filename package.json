@@ -1,20 +1,20 @@
 {
   "name": "web3-wallet-connection",
   "version": "1.0.0",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "dependencies": {
-    "@thirdweb-dev/auth": "^4.1.97",
-    "@thirdweb-dev/react": "^4.9.4",
-    "@thirdweb-dev/sdk": "^4.0.99",
-    "@thirdweb-dev/wallets": "^2.5.39",
+    "@thirdweb-dev/auth": "^4.1.90",
+    "@thirdweb-dev/react": "^4.6.31",
+    "@thirdweb-dev/sdk": "^4.0.92",
+    "thirdweb": "^5.28.0",
     "ethers": "^5.7.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "uuid": "^10.0.0"
   },
   "scripts": {
-    "build": "tsc && babel src --out-dir lib",
+    "build": "tsc && babel src --out-dir dist",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {

@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   entry: './src/index.tsx',
   output: {
-    path: path.resolve(__dirname, 'lib'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
     library: 'web3WalletConnection',
     libraryTarget: 'umd',

@@ -1,5 +1,12 @@
+export { WalletProvider, useWallet } from "./walletContext";
 
-import { WalletProvider, useWallet } from "./walletContext";
-// export { default as useWalletActions } from './walletActions';
+export { default as useWalletActions } from "./walletActions";
 
-export { WalletProvider, useWallet };
+export {
+  ThirdwebProvider,
+  ConnectWallet,
+  useAddress,
+  useConnectionStatus,
+  useDisconnect,
+  useSDK,
+} from "@thirdweb-dev/react";
