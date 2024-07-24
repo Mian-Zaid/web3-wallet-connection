@@ -4,8 +4,14 @@ This package is built upon ThirdWeb SDK, it simplifies the process of Connecting
 
 ## Installation
 
+using NPM
 ```
 npm install web3-wallet-connection
+```
+
+using YARN
+```
+yarn add web3-wallet-connection
 ```
 
 ## Usage 
