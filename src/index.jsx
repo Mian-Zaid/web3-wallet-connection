@@ -10,3 +10,5 @@ export {
   useDisconnect,
   useSDK,
 } from "@thirdweb-dev/react";
+
+export { resolveENS, lookUpENS } from "./resolveens";
