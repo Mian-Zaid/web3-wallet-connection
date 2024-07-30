@@ -24,9 +24,9 @@ const useWalletActions = () => {
         const randomUUID = uuidv4();
 
         const loginOptions = {
-            Version: "1",
-            ChainId: "1",
-            Nonce: randomUUID,
+            "Version": "1",
+            "Chain ID": "1",
+            "Nonce": randomUUID,
             "Issued At": currentDate.toISOString(),
             "Expiration Time": expirationDate.toISOString(),
             "Not Before": notBefore.toISOString(),
