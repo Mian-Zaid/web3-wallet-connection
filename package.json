@@ -1,6 +1,6 @@
 {
   "name": "web3-wallet-connection",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
@@ -8,7 +8,7 @@
     "@thirdweb-dev/react": "^4.9.4",
     "@thirdweb-dev/sdk": "^4.0.99",
     "alchemy-sdk": "^3.5.7",
-    "ethers": "^6.13.7",
+    "ethers": "^5.8.0",
     "thirdweb": "^5.96.4",
     "uuid": "^11.1.0"
   },
